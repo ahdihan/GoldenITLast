@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeMenuId"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/aboutUsId"
+            android:title="About Us"
+            android:icon="@drawable/about_us"
+            />
+
+        <item
+            android:id="@+id/ourTeacherId"
+            android:title="Our Teacher"
+            android:icon="@drawable/teacher"
+            />
+
+        <item
+            android:id="@+id/contactUsId"
+            android:title="Contact Us"
+            android:icon="@drawable/contact_us"
+            />
+
+    </group>
+
+    <item android:title="Academic List">
+
+        <menu>
+
+            <item
+                android:id="@+id/admissionId"
+                android:title="Admission"
+                />
+            <item
+                android:id="@+id/coursesId"
+                android:title="Courses"
+                />
+            <item
+                android:id="@+id/noticeId"
+                android:title="Notice"
+                />
+            <item
+                android:id="@+id/resultId"
+                android:title="Result"
+                />
+            <item
+                android:id="@+id/certificateId"
+                android:title="Certificate"
+                />
+            <item
+                android:id="@+id/loginId"
+                android:title="Login"
+                />
+                        </menu>
+
+    </item>
+
+</menu>
